@@ -31,7 +31,7 @@ const features=[
   {
     name:"Pedestrian Crossing System for Visually Impaired",
     desc:"Utilizes TCS230 Color sensor along with HC 05 bluetooth module and Arduino Uno R3 to transmit the detected traffic light color.",
-    img:"/ped.png",
+    img:"\ped.png",
     links:"https://drive.google.com/file/d/1jX4DnKKVCSHvW1gxxnlFWsd3CIYa4Y1G/view?usp=drive_link",
   },
   

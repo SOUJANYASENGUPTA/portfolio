@@ -48,8 +48,8 @@ const Hero=()=>{
             <motion.h2 variants={textVariants}>SOUJANYA SENGUPTA</motion.h2>
             <motion.h1 variants={textVariants}>Java FullStack Web Developer</motion.h1>
             <motion.div className="buttons" variants={textVariants}>
-                <motion.a href={`#Featured`} variants={textVariants}><motion.button variants={textVariants} >See Portfolio</motion.button></motion.a>
-                <motion.a href={`#Contact`} variants={textVariants}><motion.button variants={textVariants} >Contact Me</motion.button></motion.a>
+            <motion.a href={`#Featured`} variants={textVariants}><motion.button variants={textVariants} >See Portfolio</motion.button></motion.a>
+            <motion.a href={`#Contact`} variants={textVariants}><motion.button variants={textVariants} >Contact Me</motion.button></motion.a>
 
             </ motion.div>
             <motion.a href={`#Education`} variants={textVariants} animate="scrollButton">
@@ -60,8 +60,8 @@ const Hero=()=>{
         <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
                 FullStack Developer OCJA 
             </motion.div>
-            <div className="imageContainer">
-                <img src="\Me2.png" alt="" />
+            <div className ="imageContainer">
+                <img src="/Me2.png" alt="" />
             </div>
         </div>
     );
