@@ -61,7 +61,7 @@ const Hero=()=>{
                 FullStack Developer OCJA 
             </motion.div>
             <div className="imageContainer">
-                <img src="\Me.png" alt="" />
+                <img src="\Me2.png" alt="" />
             </div>
         </div>
     );
