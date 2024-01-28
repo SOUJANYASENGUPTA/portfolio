@@ -4,9 +4,10 @@
 .card-container {
   max-width: 1280px;
   margin: 0 auto;
-  padding-top: 4%;
+  padding-top: 3%;
   padding-left: 35px;
   padding-right: 35px;
+  
   display: flex;
   flex-wrap: wrap;
   overflow-y: auto; /* Add overflow handling for vertical overflow */
@@ -63,7 +64,7 @@
   padding: 0;
   margin: 0;
   font-size: medium;
-  
+  line-height: 22px;
 }
 .card-container .card img {
   width: 100%;
