@@ -1,0 +1,74 @@
+@import "../../app.scss";
+.navbar{
+    height: 100px;
+    
+    .wrapper{
+        max-width: 1326px;
+        margin: auto;
+        display: flex;
+     align-items: center;
+        justify-content: space-between;
+        height: 100%;        
+         @include mobile{
+            max-width: 300px;
+            justify-content: flex-end;
+            padding-left:20px;
+            padding-right: 20px;
+         }
+        .socials{
+            display:flex;
+            gap:20px;
+            @include mobile{
+                gap:10px;
+             }
+            img{
+                width: 25px;
+                height: 25px;
+                @include mobile{
+                    width: 20px;
+                    height: 20px;
+                 }
+            }
+
+.butt{
+  font-size: small;
+  font-family: "DM Sans" , sans-serif ;
+  height: 28px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-stretch: extra-condensed;
+  background-color: #0c0c1d;
+  color:lightgrey;
+  
+  border: none;
+  border-radius: 25px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+
+.butt:hover{
+    border-radius: 5px;
+    background: #f393f3;
+    color: #050801;
+    box-shadow: 0 0 25px #f393f3,
+                0 0 25px #f393f3,
+                0 0 50px #f393f3,
+                0 0 200px #f393f3;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+     
+}
+        }
+        span{
+            margin-left: 100px;
+            font-weight: bold;
+            @include mobile{
+                display:none;
+            }
+        } 
+        
+    }
+}

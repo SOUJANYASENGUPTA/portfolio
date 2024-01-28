@@ -1,0 +1,111 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+.skill{             
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             
+                          
+}
+
+.scrollport {
+  margin-top:6%;
+  display: flex;
+  -webkit-mask-image: linear-gradient(to right, #00000000, #000, #000, #0000);
+  gap: 15px;
+  align-items: start;
+  padding: var(--size-10);   
+}
+
+.scrollport > div {
+  
+  height:350px;
+  width:300px;
+  background-color: rgba(240, 240, 240, 0.1);
+  border-radius: var(--radius-3);
+  box-shadow: var(--shadow-2);
+}
+
+
+.pane-container {
+  position: relative;   
+  overflow: hidden;
+  p{
+    margin-top: 50px;
+  }
+}
+
+
+/* Left Arrow Styles */
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 100px; /* Adjust the left position as needed */
+  transform: rotate(90deg);
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Right Arrow Styles */
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 100px; /* Adjust the right position as needed */
+  transform: rotate(-90deg); /* Adjust the rotation for the right arrow */
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.textContainer{
+  display:flex;
+  justify-content: center;
+  position: relative;
+  height: 15vh;
+  .head{
+      font-size: 58px;
+      font-weight: 700;   
+      color: #ee7dd6;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+  p {
+    font-size: 18px;
+    color:lightgray; /* Adjust color as needed */
+    text-align: center;
+    margin-top: 10%; /* Adjust margin-top as needed */
+    max-width: 80%; /* Adjust max-width as needed */
+  }
+  }
