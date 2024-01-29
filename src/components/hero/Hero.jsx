@@ -61,7 +61,7 @@ const Hero=()=>{
                 FullStack Developer OCJA 
             </motion.div>
             <div className ="imageContainer">
-                <img src="https://images.app.goo.gl/GXRypqRDyTVykSXS8" alt="" />
+                <img src="\Me2.png" alt="" />
             </div>
         </div>
     );
