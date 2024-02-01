@@ -17,7 +17,7 @@ const history=[
 const Education=()=>{
     return(
         <div className="education">
-            <motion.div className="textContainer" initial={{opacity:0,x:-500}} whileInView={{opacity:1,x:0}} transition={{duration:1,staggerChildren:0.1}}>
+            <motion.div className="textContainer" initial={{opacity:0,y:500}} whileInView={{opacity:1,y:0}} transition={{duration:1,staggerChildren:0.1}}>
                 <motion.h1>
                     Education
                 </motion.h1>
