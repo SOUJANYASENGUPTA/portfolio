@@ -17,16 +17,14 @@ const Main = ()=>{
      <section id="Education">
       <Education/>
       </section>
-      <section id="Skills">
+      <section id="Skills" style={{overflow:"hidden"}}>
         <Pane/>
-        </section>
-      <section id="Featured">
+      </section>
+      <section id="Featured" >
         <Parallax/>
-        </section>
-        <section>
-        <Featured/>
-        </section>
-      <section id="Contact">
+      </section >
+      <Featured/>
+      <section id="Contact" style={{overflow:"hidden"}}>
         <Contact/>
       </section>
       </div>
