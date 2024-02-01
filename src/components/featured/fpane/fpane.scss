@@ -1,18 +1,25 @@
+@import "../../../app.scss";
 .fpane{
   background: linear-gradient(180deg, #111132,#0c0c1d );
-
+  
 .card-container {
   max-width: 1280px;
   margin: 0 auto;
   padding-top: 3%;
   padding-left: 35px;
   padding-right: 35px;
-  
   display: flex;
   flex-wrap: wrap;
   overflow-y: auto; /* Add overflow handling for vertical overflow */
-  max-height: 1600px; /* Adjust the maximum height as needed */
-}
+   /* Adjust the maximum height as needed */
+    @include mobile{
+      align-self: center;
+      text-align: center;
+      flex-direction: column;
+      
+    }
+
+  }
 .card-container:hover .card {
   opacity: .7;
   cursor: pointer;
@@ -28,6 +35,9 @@
   -webkit-transition: .3s all ease;
   transition: .15s all ease;
   border-radius: 12px;
+  @include mobile{
+    width: calc(100% / 1 - 20px);
+  }
  
 }
 .card-container .card:hover {
@@ -51,14 +61,15 @@
   
 }
 .card-container .card .content {
-  padding: 15px 20px;
+  padding: 20px 20px;
   
 }
 .card-container .card h3 {
   font-size:larger;
   padding: 0;
-  margin: 0 0 15px;
-  letter-spacing: -.075rem
+  margin: 5px 0 15px;
+  letter-spacing: -.075rem;
+  line-height:25px;
 }
 .card-container .card p {
   padding: 0;
@@ -72,7 +83,7 @@
   object-fit: cover; /* Ensure the image covers the specified dimensions */
 }
 .card-container .card button{
-margin-top:20px;
+margin-top:30px;
 position: relative;
 display: inline-block;
 outline: none;
