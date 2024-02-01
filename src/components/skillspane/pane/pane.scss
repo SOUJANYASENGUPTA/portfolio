@@ -1,5 +1,6 @@
 @import "https://unpkg.com/open-props";
 @import "https://unpkg.com/open-props/normalize.min.css";
+@import "../../../app.scss";
 .skill{             
              display: flex;
              align-items: center;
@@ -14,7 +15,13 @@
   -webkit-mask-image: linear-gradient(to right, #00000000, #000, #000, #0000);
   gap: 15px;
   align-items: start;
-  padding: var(--size-10);   
+  padding: var(--size-10);
+  @include mobile{
+    margin-top:60%;
+    margin-left: -5%;
+    
+  }
+
 }
 
 .scrollport > div {
@@ -24,6 +31,7 @@
   background-color: rgba(240, 240, 240, 0.1);
   border-radius: var(--radius-3);
   box-shadow: var(--shadow-2);
+  
 }
 
 
@@ -44,6 +52,9 @@
   transform: rotate(90deg);
   cursor: pointer;
   z-index: 2;
+  @include mobile{
+    margin-top:30%;
+  }
 }
 
 /* Right Arrow Styles */
@@ -53,6 +64,9 @@
   right: 100px; /* Adjust the right position as needed */
   transform: rotate(-90deg); /* Adjust the rotation for the right arrow */
   cursor: pointer;
+  @include mobile{
+    margin-top:28%;
+  }
 }
 
 .arrow span {
@@ -107,5 +121,11 @@
     text-align: center;
     margin-top: 10%; /* Adjust margin-top as needed */
     max-width: 80%; /* Adjust max-width as needed */
+    @include mobile{
+      margin-top:40%;
+    }
   }
+  
+  
   }
+  
