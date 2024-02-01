@@ -28,6 +28,9 @@
                 text-align: center;
                 padding-right: 30px;
                 gap: 35px;
+                
+                margin-left: 10px;
+                
             }
             h2{
                 font-size: 20px;
@@ -43,6 +46,9 @@
             }
             .buttons{
                 z-index: 3;
+                @include mobile{
+                    margin-left: 28px;
+                }
               button{
                 
                padding: 20px;
@@ -54,6 +60,7 @@
                cursor: pointer;
                font-weight: 300;
                font-size: 15px;
+               
                
                 }
                 button:hover{
