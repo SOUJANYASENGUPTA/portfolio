@@ -38,15 +38,16 @@ const features=[
 ]
 const variants={
   initial:{
-      x: -500,
+      y: -500,
       opacity: 0
   },
   animate:{
-      x:0,
+      y:0,
       opacity:1,
       transition:{
+        
           duration: 2,
-          staggerChildren: 0.5,
+          staggerChildren: 0.2,
       }
   },
 };
@@ -64,6 +65,7 @@ const Featured= () =>{
             desc={feature.desc}
             img={feature.img}
             links={feature.links}
+            custom={index}
           />
         ))}
      </motion.div>
