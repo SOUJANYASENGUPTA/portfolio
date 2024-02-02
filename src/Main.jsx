@@ -14,7 +14,7 @@ const Main = ()=>{
      <Navbar/>
      <Hero/>
       </section>
-     <section id="Education">
+     <section id="Education" style={{overflow:"hidden"}}>
       <Education/>
       </section>
       <section id="Skills" style={{overflow:"hidden"}}>
