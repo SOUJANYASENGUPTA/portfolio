@@ -12,7 +12,7 @@ const features=[
   {
     name:"Hospital Management System Internship Virtusa(May 2023 - Aug 2023)",
     desc:"Responsible for handling Pharmacy Management,integrating frontend components and implementing authentication Firebase.",
-    img: "\Virtusa.png",
+    img: "\Virtusa.jpg",
     links:"https://www.linkedin.com/in/soujanya-s-2a9729165/details/experience/",
   },
   {
