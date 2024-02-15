@@ -7,7 +7,7 @@ const history=[
     },
     {
         name:"AISSCE (2019)",
-        body:"Passed with 89.5% from CBSE Board."
+        body:"Passed with 85.9% from CBSE Board."
     },
     {
         name:"AISSE (2017)",
